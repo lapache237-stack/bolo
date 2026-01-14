@@ -1,0 +1,137 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 20px;
+  background: #fafafa;
+  color: #333;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  color: #5C6AC4;
+  margin: 0;
+  font-size: 2.8em;
+  text-shadow: 1px 1px 2px #aaa;
+}
+
+#currentTime {
+  color: #888;
+  font-size: 0.9em;
+  margin-top: 6px;
+}
+
+h2 {
+  color: #4a4a8c;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #5C6AC4;
+  padding-bottom: 8px;
+}
+
+.partners-section {
+  margin-bottom: 40px;
+}
+
+.partners-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partner-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(92, 106, 196, 0.3);
+  width: 180px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.partner-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(92, 106, 196, 0.5);
+}
+
+.partner-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #5C6AC4;
+  margin-bottom: 12px;
+}
+
+.partner-card h3 {
+  margin: 6px 0;
+  font-size: 1.1em;
+  color: #3b3b70;
+}
+
+.partner-card p {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.form-section form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(92, 106, 196, 0.2);
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #4a4a8c;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1.8px solid #ccc;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #5C6AC4;
+  outline: none;
+  box-shadow: 0 0 5px #5C6AC4;
+}
+
+button {
+  margin-top: 30px;
+  background: #5C6AC4;
+  border: none;
+  color: white;
+  padding: 14px 0;
+  font-size: 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background: #4857a9;
+}
